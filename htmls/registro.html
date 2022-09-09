@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/registro.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <section>
+            <p>Descuento 20% en todos los productos</p>
+          </section>
+          <img src="/img/tutienda.png" alt="logo">
+            <h1>Heroe Ya!</h1>
+          <div>
+            <nav>
+              <a href="#">Contacto</a>
+              <a href="/htmls/registro.html">Registrame</a>
+              <a href="#">Ingresar</a>
+            </nav>
+          </div>
+    </header>
+    <main>
+        <fieldset>
+            <h1>Añade tu super!</h1>
+            <p>Agregá tu personaje favorito completando las opciones.</p>
+            <form action="#">
+                <div class="nombre">
+                    <label for="name">Nombre</label>
+                    <input type="text" name="user" id="name"></input>
+                </div><br>
+                <div class="especie">
+                    <label for="esp">Especie</label>
+                    <select name="Especie" id="esp">
+                        <option value="humano">Humano</option>
+                        <option value="kriptoniano">Kriptoniano</option>
+                        <option value="Marciano">Marciano</option>
+                    </select>
+                </div><br>
+                <div class="fecha">
+                    <label for="fecha">Fecha</label>
+                    <input type="date" name="fecha" id="fecha"></input>
+                </div><br>
+                <div class="descripcion">
+                    <textarea name="descripcion" id="des" cols="50" rows="3">Descripcion</textarea>
+                </div><br>
+                <div class="foto">
+                    <label for="foto">Agregar Foto</label>
+                    <input type="file" name="foto" accept=".jpg"></input>
+                </div><br>
+                <div class="checkb">
+                    <label for="poderes">Poderes:</label><br>
+                    <input type="checkbox" name="poderes" id="poderes" value="Volar">
+                    <label for="poderes">Volar</label><br>                 
+                    <input type="checkbox" name="poderes" id="poderes" value="SuperInteligencia">
+                    <label for="poderes">Super Inteligencia</label><br>
+                    <input type="checkbox" name="poderes" id="poderes" value="vistaLaser">
+                    <label for="poderes">Vista De Rayos Laser</label><br>
+                    <input type="checkbox" name="poderes" id="poderes" value="Billetera_gorda">
+                    <label for="poderes">Billetera Gorda</label><br>
+                    
+                </div><br>
+                <hr>
+                <div class="rad">
+                    <label for="heroe">Tipo de Personaje:</label><br>
+                    <input type="radio" name="heroe" id="heroe">
+                    <label for="heroe">Héroe / Heroina</label><br>
+                    <input type="radio" name="villano" id="villano">
+                    <label for="villano">Villano / Villana</label><br>                 
+                </div><br>
+                <button type="submit">Añadir</button>
+            </form>
+            
+        </fieldset>
+    </main>
+    <footer>
+        <i class="fa-solid fa-alien"></i>
+        <p>Todos los derechos reservados a <span>Grupo 6</span></p>
+      </footer> 
+</body>
+</html>
