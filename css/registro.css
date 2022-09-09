@@ -37,6 +37,7 @@ body {
     height: 52rem;
     border-radius: 49px;
     background-color: #00669F;
+    
   }
   fieldset h1{
     color: white;
@@ -57,7 +58,50 @@ body {
   fieldset{
     position: relative;
   }
-  .nombre
+  .nombre{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+  }
+  .nombre input{
+    border-radius: 15.34px;
+    border: 0;
+    padding: .7rem;
+    margin: 5px;
+    width: 343px;
+  }
+  .especie{
+    position: absolute;
+    left: 550px;
+    right: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+  .especie select{
+    border-radius: 15.34px;
+    padding: .7rem;
+    margin: 5px;
+    width: 343px;
+  }
+  .fecha{
+    position: absolute;
+    top: 182px;
+    display: flex;
+    flex-direction: column;
+  }
+  .fecha input{
+    border-radius: 15.34px;
+    border: 0;
+    padding: .7rem;
+    width: 343px;
+  }
+  .foto{
+    position: absolute;
+    top: 182px;
+    left: 550px;
+    display: flex;
+    flex-direction: column;
+  }
   footer{
     background-color: #00669F;
     color:white;
